@@ -1,9 +1,8 @@
 body {
+    background-image: url("assets/images/background.jpg");
+    font-family: 'Montserrat', sans-serif;
 }
 
-.background {
-    background-image: url("assets/images/bw_abstract_squares.png");
-}
 
 #logo {
     margin: 0;
@@ -11,7 +10,7 @@ body {
     color: black;
     font-size: 28px;
     background-color: #d8bd7e;
-    width: 160px;
+    width: 200px;
     float: left;
     text-align: center;
 }
@@ -75,13 +74,3 @@ hr {
 #bio-image {
     width: 200px;
 }  
-
-.content-inside {
-    padding-bottom: 50px;
-    background-color: #d8bd7e;
-}
-
-.footer {
-    height: 50px;
-    margin-top: -50px;
-}
