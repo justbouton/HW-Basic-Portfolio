@@ -101,7 +101,7 @@ header{
 }
 
 main {
-    padding: 10px;
+    padding: 10px 0;
 	clear: both;
 	/*background-color: #ffccff;*/
 }
@@ -131,6 +131,7 @@ img {
     float: left;
     background-color: #fff;
     border-radius: 5px;
+    border: inset;
 }
 
 #main-section p {
@@ -177,8 +178,10 @@ img {
 
 #contact {
 	background:#F9F9F9;
-	padding: 20px;
-	margin: 0;
+	padding: 20px 60px 0px 30px;
+    margin: 0;
+    border-radius: 0 0 10px 10px;
+
 }
 
 #contact h4 {
